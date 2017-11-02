@@ -1,0 +1,18 @@
+--------- beginning of main
+11-02 13:25:29.936  5512  5525 D ActivityTestRule: Launching activity com.google.android.perftesting.SimpleListActivity
+11-02 13:25:29.936  5512  5574 D MonitoringInstrumentation: execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle
+11-02 13:25:29.981  5512  5512 D LifecycleMonitor: Lifecycle status change: com.google.android.perftesting.SimpleListActivity@458e00 in: PRE_ON_CREATE
+11-02 13:25:29.993  5512  5512 D LifecycleMonitor: Lifecycle status change: com.google.android.perftesting.SimpleListActivity@458e00 in: CREATED
+11-02 13:25:29.993  5512  5512 D LifecycleMonitor: Lifecycle status change: com.google.android.perftesting.SimpleListActivity@458e00 in: STARTED
+11-02 13:25:29.993  5512  5512 D LifecycleMonitor: Lifecycle status change: com.google.android.perftesting.SimpleListActivity@458e00 in: RESUMED
+11-02 13:25:30.006  5512  5575 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+11-02 13:25:30.008  5512  5512 D         : HostConnection::get() New Host Connection established 0xaada2740, tid 5512
+11-02 13:25:30.107  5512  5575 D         : HostConnection::get() New Host Connection established 0xaadabf00, tid 5575
+11-02 13:25:30.111  5512  5575 I OpenGLRenderer: Initialized EGL, version 1.4
+11-02 13:25:30.111  5512  5575 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-02 13:25:30.112  5512  5575 D EGL_emulation: eglCreateContext: 0xaea14fc0: maj 3 min 1 rcv 4
+11-02 13:25:30.115  5512  5575 D EGL_emulation: eglMakeCurrent: 0xaea14fc0: ver 3 1 (tinfo 0xaea12ad0)
+11-02 13:25:30.115  5512  5575 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+11-02 13:25:30.115  5512  5575 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+11-02 13:25:30.119  5512  5575 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+11-02 13:25:30.129  5512  5575 D EGL_emulation: eglMakeCurrent: 0xaea14fc0: ver 3 1 (tinfo 0xaea12ad0)

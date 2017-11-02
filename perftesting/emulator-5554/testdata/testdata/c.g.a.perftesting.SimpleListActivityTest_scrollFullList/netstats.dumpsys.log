@@ -1,0 +1,32 @@
+Active interfaces:
+  iface=eth0 ident=[{type=MOBILE, subType=COMBINED, subscriberId=310260...}] 
+Active UID interfaces:
+  iface=eth0 ident=[{type=MOBILE, subType=COMBINED, subscriberId=310260...}] 
+Dev stats:
+  Pending bytes: 3385
+  Complete history:
+  ident=[{type=MOBILE, subType=COMBINED, subscriberId=310260...}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1509620400 rb=616 rp=6 tb=381 tp=5 op=0
+      st=1509624000 rb=1495 rp=13 tb=893 tp=11 op=0
+Xt stats:
+  Pending bytes: 2547
+  Complete history:
+  ident=[{type=MOBILE, subType=COMBINED, subscriberId=310260...}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1509620400 rb=491 rp=5 tb=291 tp=4 op=0
+      st=1509624000 rb=1154 rp=10 tb=611 tp=8 op=0
+UID stats:
+  Pending bytes: 2547
+  Complete history:
+  ident=[{type=MOBILE, subType=COMBINED, subscriberId=310260...}] uid=0 set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=7200
+      st=1509616800 rb=387 rp=3 tb=117 tp=2 op=0
+      st=1509624000 rb=935 rp=7 tb=245 tp=3 op=0
+  ident=[{type=MOBILE, subType=COMBINED, subscriberId=310260...}] uid=1000 set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=7200
+      st=1509616800 rb=104 rp=2 tb=174 tp=3 op=0
+      st=1509624000 rb=219 rp=3 tb=366 tp=4 op=0
+UID tag stats:
+  Pending bytes: 0
+  Complete history:

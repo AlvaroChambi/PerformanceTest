@@ -1,0 +1,16 @@
+scrollFullList(com.google.android.perftesting.SimpleListActivityTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4500 milliseconds
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:1031)
+	at java.lang.Thread.sleep(Thread.java:985)
+	at com.google.android.perftesting.SimpleListActivityTest.scrollFullList(SimpleListActivityTest.java:102)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.lang.Thread.run(Thread.java:818)
+

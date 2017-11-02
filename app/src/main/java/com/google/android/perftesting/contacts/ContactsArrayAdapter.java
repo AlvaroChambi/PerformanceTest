@@ -26,6 +26,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.google.android.perftesting.R;
 
 import java.util.List;
@@ -45,11 +46,15 @@ public class ContactsArrayAdapter extends ArrayAdapter<Contact> {
     public View getView(int position, View convertView, ViewGroup parent ) {
 
         Contact contact = getItem(position);
-        LayoutInflater inflater = LayoutInflater.from(getContext());
+        //LayoutInflater inflater = LayoutInflater.from(getContext());
 
         // This line is wrong, we're inflating a new view always instead of only if it's null.
         // For demonstration purposes, we will leave this here to show the resulting jank.
-        convertView = inflater.inflate(R.layout.item_contact, parent, false);
+        //convertView = inflater.inflate(R.layout.item_contact, parent, false);
+        if (convertView == null) {
+            LayoutInflater inflater = LayoutInflater.from(getContext());
+            convertView = inflater.inflate(R.layout.item_contact, parent, false);
+        }
 
         TextView contactName = (TextView) convertView.findViewById(R.id.contact_name);
         ImageView contactImage = (ImageView) convertView.findViewById(R.id.contact_image);
@@ -59,8 +64,13 @@ public class ContactsArrayAdapter extends ArrayAdapter<Contact> {
         // Let's just create another bitmap when we need one. This makes no attempts to re-use
         // bitmaps that were previously used in rendering past list view elements, causing a large
         // amount of memory to be consumed as you scroll farther down the list.
-        Bitmap bm = BitmapFactory.decodeResource(convertView.getResources(), R.drawable.bbq);
-        contactImage.setImageBitmap(bm);
+//        Bitmap bm = BitmapFactory.decodeResource(convertView.getResources(), R.drawable.bbq);
+//        contactImage.setImageBitmap(bm);
+
+        Glide.with(contactImage.getContext())
+                .load(R.drawable.bbq)
+                .fitCenter()
+                .into(contactImage);
         return convertView;
     }
 }

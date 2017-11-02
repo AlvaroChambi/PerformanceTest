@@ -1,0 +1,149 @@
+Per-PID Stats:
+  PID 1608 wake time: +64ms
+  PID 1608 wake time: +373ms
+
+Daily stats:
+  Current start time: 2017-11-02-11-05-05
+  Next min deadline: 2017-11-03-01-00-00
+  Next max deadline: 2017-11-03-03-00-00
+    Package changes:
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+      Update com.google.android.perftesting vers=0
+      Update com.google.android.perftesting vers=1
+      Update com.google.android.perftesting.test vers=0
+
+Statistics since last charge:
+  System starts: 0, currently on battery: false
+  Time on battery: 0ms (0.0%) realtime, 0ms (0.0%) uptime
+  Time on battery screen off: 0ms (0.0%) realtime, 0ms (0.0%) uptime
+  Total run time: 5s 41ms realtime, 5s 41ms uptime
+  Start clock time: 2017-11-02-13-25-29
+  Screen on: 0ms (--%) 0x, Interactive: 0ms (--%)
+  Screen brightnesses: (no activity)
+  Mobile total received: 0B, sent: 0B (packets received 0, sent 0)
+  Phone signal levels: (no activity)
+  Signal scanning time: 0ms
+  Radio types: (no activity)
+  Mobile radio active time: 0ms (--%) 0x
+  Wi-Fi total received: 0B, sent: 0B (packets received 0, sent 0)
+  Wifi on: 0ms (--%), Wifi running: 0ms (--%)
+  Wifi states: (no activity)
+  Wifi supplicant states: (no activity)
+  Wifi signal levels: (no activity)
+  WiFi Idle time: 0ms (--%)
+  WiFi Rx time:   0ms (--%)
+  WiFi Tx time:   0ms (--%)
+  WiFi Power drain: 0mAh
+  Bluetooth Idle time: 0ms (--%)
+  Bluetooth Rx time:   0ms (--%)
+  Bluetooth Tx time:   0ms (--%)
+  Bluetooth Power drain: 0mAh
+
+  Device battery use since last full charge
+    Amount discharged (lower bound): 0
+    Amount discharged (upper bound): 0
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+
+  1000:
+    Sensor 0: (not used)
+  1001:
+    (nothing executed)
+  u0a1:
+    (nothing executed)
+  u0a2:
+    (nothing executed)
+  u0a4:
+    (nothing executed)
+  u0a5:
+    (nothing executed)
+  u0a6:
+    (nothing executed)
+  u0a7:
+    (nothing executed)
+  u0a8:
+    Wake lock *launch* realtime
+  u0a9:
+    (nothing executed)
+  u0a10:
+    (nothing executed)
+  u0a14:
+    (nothing executed)
+  u0a20:
+    (nothing executed)
+  u0a24:
+    (nothing executed)
+  u0a27:
+    (nothing executed)
+  u0a28:
+    (nothing executed)
+  u0a30:
+    (nothing executed)
+  u0a33:
+    (nothing executed)
+  u0a36:
+    (nothing executed)
+  u0a40:
+    (nothing executed)
+  u0a41:
+    (nothing executed)
+  u0a43:
+    (nothing executed)
+  u0a46:
+    (nothing executed)
+  u0a73:
+    Wake lock *launch* realtime
+

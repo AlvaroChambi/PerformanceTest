@@ -1,0 +1,9 @@
+pull: building file list...
+[ 31%] /storage/emulated/0/Android/data/com.google.android.perftesting/files/testdata/testdata/batterystats.dumpsys.log: 100%
+[ 65%] /storage/emulated/0/Android/data/com.google.android.perftesting/files/testdata/testdata/getprops.log: 100%
+[ 66%] /storage/emulated/0/Android/data/com.google.android.perftesting/files/testdata/testdata/locationRequests.dumpsys.log: 100%
+[ 78%] /storage/emulated/0/Android/data/com.google.android.perftesting/files/testdata/testdata/c.g.a.perftesting.SimpleListActivityTest_scrollFullList/logcat.log: 100%
+[ 86%] /storage/emulated/0/Android/data/com.google.android.perftesting/files/testdata/testdata/c.g.a.perftesting.SimpleListActivityTest_scrollFullList/netstats.dumpsys.log: 100%
+[ 93%] /storage/emulated/0/Android/data/com.google.android.perftesting/files/testdata/testdata/c.g.a.perftesting.SimpleListActivityTest_scrollFullList/gfxinfo.dumpsys.log: 100%
+[100%] /storage/emulated/0/Android/data/com.google.android.perftesting/files/testdata/testdata/c.g.a.perftesting.SimpleListActivityTest_scrollFullList/test.failure.log: 100%
+/storage/emulated/0/Android/data/com.google.android.perftesting/files/testdata/: 8 files pulled. 0.0 MB/s (16834 bytes in 0.363s)
